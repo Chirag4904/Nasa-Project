@@ -26,5 +26,5 @@ const App = () => {
     </SoundsProvider>
   </ThemeProvider>;
 };
-
+//ok buddy
 export default App;
