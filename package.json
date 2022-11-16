@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client",
     "server": "npm run watch --prefix server",
     "client": "npm run build --prefix client",
     "site": "npm run client && npm run server",
-    "site-cluster":"npm run client && npm run cluster --prefix server",
+    "site-cluster": "npm run client && npm run cluster --prefix server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
