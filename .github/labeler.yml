@@ -1,0 +1,16 @@
+frontend:
+  - client/*
+  - lib/**/*
+  - middleware/*
+  - middleware/**/*
+  - tests/*
+  - tests/**/*
+  - stylesheets/*
+  - stylesheets/**/*
+  - script/*
+  - script/**/*
+  - components/*
+  - components/**/*
+  - pages/*
+  backend:
+    - server/*
