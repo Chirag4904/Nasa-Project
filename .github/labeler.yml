@@ -12,5 +12,5 @@ frontend:
   - components/*
   - components/**/*
   - pages/*
-  backend:
+backend:
     - server/*
